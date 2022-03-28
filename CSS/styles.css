@@ -1,0 +1,361 @@
+body{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: #A9A9A9; */
+}
+
+/* estilos en menu de navegacion*/
+
+header{
+    width: auto;
+    background-color: #A9A9A9;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 250px;
+    padding: 10px;
+}
+
+.nav_links {
+    width: 45%;
+    padding: 1.5em;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_links li {
+    display: inline-block;
+}
+
+.nav_links li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav_links li a:hover{
+    color: #ff3b3f;
+}
+
+/* estilos en la presentacion del header*/
+
+.header_presentacion{
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly ;
+    padding: 20px;
+    text-align: justify;
+}
+
+.header_imagen{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.header_texto{
+    width: 70%;
+}
+
+.header_links {
+    list-style: none;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.header_links li a{
+    color: black;
+    text-decoration: none;
+}
+
+.header_links li a:hover{
+    color: #ff3b3f;
+}
+
+/*estilos de sobre mi*/
+
+.sobreMiSeccion{
+    display: flex;
+    background: linear-gradient(#a9a9a9,#caebf2);
+    }
+
+.sobreMi{
+    text-align: justify;
+    margin: auto;
+    width: 80%;
+}
+
+/*estilos de skills*/
+
+.skillsSeccion {
+    background-color: #caebf2;
+}
+
+.skills {
+    display: flex;
+    height: 200px;
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills_contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skills_space{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    /* background-color: bisque; */
+}
+.skills_space img{
+    width: 80px;
+}
+
+
+/*estilos de Hobbies*/
+
+.hobbiesSeccion{
+    background: linear-gradient(#caebf2,#a9a9a9);
+}
+
+.hobbies {
+    display: flex;
+    height: 200px;
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hobbies_contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hobbies_space{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    /* background-color: bisque; */
+}
+.hobbies_space img{
+    width: 80px;
+}
+
+
+/*estilos preparacion academica*/
+
+.preparacionAcademicaSeccion{
+    background: #a9a9a9;
+    padding-top: 40px;
+    padding-bottom: 75px;
+}
+
+.preparacionAcademica {
+    display: flex;
+    height: 200px;
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+}
+.preparacionAcademica_contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.preparacionAcademica_space{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    /* background-color: bisque; */
+}
+.preparacionAcademica_space img {
+    width: 80px;
+}
+.udemy img {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.aluraLatam img{
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.preparacionAcademica_space p{
+    font-size: small;
+}
+
+
+/* Estilo de esperiencia profecional*/
+
+.experienciaProfecional{
+    background: linear-gradient(#a9a9a9,#caebf2,#a9a9a9);
+}
+
+.experienciaProfecional h2{
+    margin: 0 0 0 10%;
+    padding: 25px 0;
+}
+
+.encriptador{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-around;
+}
+
+.encriptador img{
+    width: 470px;
+}
+
+.hangman{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-around;
+}
+
+.hangman img{
+    width: 470px;
+}
+
+.botones{
+    background-color: #ff3b3f;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 100px;
+    height: 25px;
+}
+
+.botones a{
+    color: #caebf2;
+    text-decoration: none;
+}
+
+
+/* estilos de contacto */
+
+.contacto{
+    background: #a9a9a9;
+}
+
+.contacto h2{
+    margin: 0 0 0 10%;
+    padding: 25px 0;
+
+}
+
+.formulario_contacto{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.laPrueba{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.laPrueba label{
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.laPrueba input{
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.laPrueba textarea{
+    border: none;
+    height: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.formulario_contacto button{
+    align-self: center;
+    color: #caebf2;
+    background-color: #ff3b3f;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 100px;
+    height: 25px;  
+
+}
+
+footer p{
+    background-color: #A9A9A9;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+/*
+#CAEBF2
+#A9A9A9
+#FF3B3F
+#EFEFEF
+*/
+
+@media only screen and (max-width: 800px) {
+    nav {
+        flex-direction: column;
+    }
+    .nav_links {
+        display: none;
+    }
+    .header_presentacion{
+        width: 100%;
+        flex-direction: column;  
+    }
+
+    .encriptador{
+        flex-direction: column; 
+    }
+    
+    .hangman{
+        flex-direction: column;
+    }
+    
+    
+  }

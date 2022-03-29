@@ -37,12 +37,13 @@ nav {
 }
 
 .nav_links li a {
-    color: black;
+    color: #ff3b3f;
     text-decoration: none;
 }
 
 .nav_links li a:hover{
-    color: #ff3b3f;
+    color: black;
+    text-decoration: underline;
 }
 
 /* estilos en la presentacion del header*/
@@ -77,12 +78,13 @@ nav {
 }
 
 .header_links li a{
-    color: black;
+    color: #ff3b3f;
     text-decoration: none;
 }
 
 .header_links li a:hover{
-    color: #ff3b3f;
+    color: black;
+    text-decoration: underline;
 }
 
 /*estilos de sobre mi*/

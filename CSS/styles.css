@@ -347,6 +347,24 @@ footer p{
     .header_presentacion{
         flex-direction: column;  
     }
+    
+    .header_texto{
+        width: 100%;
+    }
+    
+    .skillsSeccion {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .skills_contenedor {
+        flex-wrap: wrap;
+    }
+    
+    .skills_space {
+        margin-bottom: 30px;
+        margin-right: 40px;
+    }
 
     .encriptador{
         flex-direction: column; 

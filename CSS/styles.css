@@ -345,7 +345,6 @@ footer p{
         display: none;
     }
     .header_presentacion{
-        width: 100%;
         flex-direction: column;  
     }
 
@@ -357,5 +356,8 @@ footer p{
         flex-direction: column;
     }
     
+    .encriptador img, .hangman img{
+        width: 300px;
+    }
     
   }
